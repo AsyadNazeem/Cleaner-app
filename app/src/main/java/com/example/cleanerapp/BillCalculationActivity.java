@@ -36,8 +36,6 @@ public class BillCalculationActivity extends AppCompatActivity {
         ButtonBillCalculationMethod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
                 Intent intentBCal =
                         new Intent(BillCalculationActivity.this,BillingDetailsActivity.class);
                 startActivity(intentBCal);
