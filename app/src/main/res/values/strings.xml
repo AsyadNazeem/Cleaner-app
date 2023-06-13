@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">The Cleaner</string>
+    <string name="todo">TODO</string>
+    <string name="how_the_bill_is_calculated">How the bill is calculated</string>
+    <string name="per_square_feet_we_charge_rs5">* Per square Feet we Charge Rs5</string>
+    <string name="if_a_house_has_more_than_three_rooms_we_charge_rs1000_for_each_room_without_adding_for_the_first_three_rooms">* If a house has more than three rooms we charge Rs1000 for each room without adding for the first three rooms</string>
+    <string name="if_a_house_has_more_than_two_bathrooms_we_charge_rs2000_for_each_bathroom_without_adding_for_the_first_two_bathrooms">* If a house has more than two Bathrooms we charge Rs2000 for each Bathroom without adding for the first two bathrooms</string>
+    <string name="ex_a_house_has_2500sqft_and_4_rooms_and_3_bathrooms">Ex = A house has 2500Sqft and 4 Rooms and 3 bathrooms</string>
+    <string name="_1_house_square_feet_amount">1) House square feet amount =</string>
+    <string name="_2500sqft_rs5_rs12500">* 2500sqft * Rs5= Rs12500</string>
+    <string name="_4_3_1_1000_rs1000">* 4 - 3 = 1 * 1000 = Rs1000</string>
+    <string name="_2_bill_amount_of_room">2) Bill Amount of Room =</string>
+    <string name="_3_bill_amount_of_bathroom">3) Bill Amount of Bathroom =</string>
+    <string name="_3_2_1_2000_rs2000">* 3 - 2 = 1 * 2000 = Rs2000</string>
+    <string name="final_bill_amount_is">* Final Bill amount is =</string>
+    <string name="_12500_1000_2000_rs15500">* 12500 + 1000 + 2000 = Rs15500</string>
+</resources>

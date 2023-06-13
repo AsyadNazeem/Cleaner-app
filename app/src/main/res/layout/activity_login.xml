@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/christian_mackie_cc0gg3begje_unsplash"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#80000000"
+        android:backgroundTintMode="src_over">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_margin="20dp"
+            app:srcCompat="@drawable/sharedscreenshot1" />
+
+
+        <EditText
+            android:id="@+id/txtLUserId"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:hint="User Id"
+            android:inputType="textPersonName"
+            android:paddingLeft="26dp"
+            android:layout_height="52dp"
+            android:background="@drawable/style_text"/>
+
+        <EditText
+            android:id="@+id/txtLPassword"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:paddingLeft="26dp"
+            android:hint="Password"
+            android:background="@drawable/style_text"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/btnLLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_selector"
+            android:text="Login" />
+
+
+        <Button
+            android:id="@+id/btnLDontHaveAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_selector"
+            android:text="Don't Have An Account " />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

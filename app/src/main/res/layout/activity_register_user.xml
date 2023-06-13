@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_User">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cuong_do_ytgliy51iny_unsplash"
+        android:backgroundTint="#80000000"
+        android:backgroundTintMode="src_over">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/sharedscreenshot1" />
+
+
+            <EditText
+                android:id="@+id/txtRUserId"
+                android:layout_width="match_parent"
+                android:paddingLeft="26dp"
+                android:layout_height="52dp"
+                android:background="@drawable/style_text"
+                android:layout_margin="20dp"
+                android:ems="10"
+                android:hint="User Id"
+                android:inputType="textPersonName"
+                style="@style/text"/>
+
+
+            <EditText
+                android:id="@+id/txtRPassword"
+                android:layout_width="match_parent"
+                android:paddingLeft="26dp"
+                android:layout_height="52dp"
+                android:background="@drawable/style_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                style="@style/text"/>
+
+
+            <EditText
+                android:id="@+id/txtRCPassword"
+                android:layout_width="match_parent"
+                android:paddingLeft="26dp"
+                android:layout_height="52dp"
+                android:background="@drawable/style_text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="Conform Password"
+                android:inputType="textPassword"
+                style="@style/text"/>
+
+
+            <Spinner
+                android:id="@+id/spRUserType"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="26dp"
+
+                android:background="@drawable/style_text"
+                style="@style/text"/>
+
+
+            <Button
+                android:id="@+id/btnRRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Register "
+                android:background="@drawable/button_selector"/>
+
+
+            <Button
+                android:id="@+id/btnRAlreadyHaveAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Already have an account"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

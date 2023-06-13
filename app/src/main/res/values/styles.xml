@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="edit_text_style" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">#809A9595</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:radius"> 19dp </item>
+
+    </style>
+
+</resources>
